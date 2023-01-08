@@ -1,0 +1,35 @@
+.myForm {
+    border: 3px solid blue;
+    background: rgba(7, 60, 236, 0.137);
+    position: relative;
+    top: 25px;
+    left: 5%;
+    font-size: 22px;
+    width: 450px;
+    height: 450px;
+}
+
+select {
+    border: 2px solid blue;
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    font-size: 22px;
+}
+
+.out {
+    border: 2px solid blue;
+    background: white;
+    padding: 8px;
+    text-align: center;
+    width: 240px;
+    height: 420px;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+}
+
+.outCityName {
+    color: blue;
+    text-transform: uppercase;
+}
