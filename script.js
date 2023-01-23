@@ -1,4 +1,7 @@
-import { param } from "./modules/password.js";
+const param = {	
+	url : "https://api.openweathermap.org/data/2.5/",
+	appid : "8ffe6449c5da40e64905d7a9f8d0ee6e"
+}
 
 function getWeather() {
     const cityId = document.querySelector('#city').value;
